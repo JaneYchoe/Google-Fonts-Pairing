@@ -1,1 +1,187 @@
-
+/*--------------------------------ELEMENTS--------------------------------*/
+article a {
+    border: 5px solid #000;
+  }
+  
+  a{
+      margin-top: 0px;
+      margin-right: 10px;
+      margin-bottom: 10px;
+      color: #000000;
+      display: inline-block;
+      padding: 10px;
+      text-decoration: none;
+      border-radius: 10px;
+  }
+  
+  footer{
+    text-align:center;
+    height: 100px;
+    background-color:#d1d1e0;
+    padding: 20px;
+  }
+  
+  button{
+      text-align: center;
+      font-family: 'Playfair Display', serif;
+      padding: 10px;
+      font-size: 20px; 
+      background-color: #9595b7;
+      border-radius: 10px;
+  }
+  
+  
+  h1{
+    font-family:'Playfair Display', serif;
+    font-size:50px;
+    color:#ffcc00;
+  }
+  
+  h2{
+    font-family: 'League Spartan', sans-serif;
+    color:#ffcc00;
+    text-align: center;
+  }
+  
+  main{
+    font-family: 'Prompt', sans-serif;
+  }
+  
+  header{
+    background: no-repeat fixed center;
+  }
+  
+  article{
+    background: no-repeat fixed center;
+    padding:0 20px;
+    height: 100vh;
+    max-width: 50%;
+    margin: 20px auto;
+    padding: 50px;
+  }
+  
+  p{
+    font-family: 'Source Sans Pro', sans-serif;
+  }
+  
+  nav{
+      width: 100%;
+      text-align: center;
+      padding: 20px;
+      position: fixed;
+      top: 0;
+      background-color: #d1d1e0;
+      z-index: 10;
+  }
+  
+  body{
+       margin: 0;
+       padding: 0;
+  }
+  
+  span{
+      font-size: 55px;
+      font-weight: 200;
+      line-height: 60px;
+      margin: 0;
+  }
+  
+  b{
+    font-family: 'Source Sans Pro', sans-serif;
+  }
+  /*----------------------------------CLASSES----------------------------------*/
+  
+  
+  .font-pair1a{
+    font-family: 'League Gothic', sans-serif;
+  }
+  .font-pair1b{
+    font-family: 'League Gothic', sans-serif;
+  }
+  .font-pair2a{
+    font-family: 'Playfair Display', serif;
+  }
+  .font-pair2b{
+    font-family: 'Playfair Display', serif;
+  }
+  .font-pair3a{
+    font-family: 'Anton', sans-serif;
+  }
+  .font-pair3b{
+    font-family: 'Anton', sans-serif;
+  }
+  
+  .with-background{
+      background-size: cover;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  
+  .hero{
+      background-size: cover;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  
+  .hero-background{
+    background-image:
+    url(https://images.pexels.com/photos/11235613/pexels-photo-11235613.jpeg?cs=srgb&dl=pexels-evgeniya-kuzmina-11235613.jpg&fm=jpg); 
+  }
+  
+  .number{
+      width: 50px;
+      height: 50px;
+      background-color: #3399ff;
+      position: absolute;
+      color: #000000;
+      text-align: center;
+      top: 20px;
+      right: 40px;
+      line-height: 50px; 
+  }
+  
+  
+  
+  /*-------------------------------ARTICLE-CONTAINER-BOX------------------------------*/
+  .first-article-container{
+    background-color: #a6a6a6;
+    opacity: 70%;
+    border-radius: 70px;
+    
+  }
+  .second-article-container{
+    background-color: #9cc99c;
+    opacity: 70%;
+    border-radius: 70px;
+  }
+  .third-article-container{
+    background-color:#c2d6d6;
+    opacity: 70%;
+    border-radius: 70px;
+  }
+  
+  /*-------------------------------POSITIONING FOR ALL PAIRINGS------------------------------*/
+  .first-article-container,.second-article-container, .third-article-container{
+    position: relative;
+  }
+  
+  /*------------------------------------BACKGROUND-IMAGES---------------------------*/
+  .first-section-background{
+    background-image:
+     url(https://images.pexels.com/photos/10022592/pexels-photo-10022592.jpeg?cs=srgb&dl=pexels-mati-mango-10022592.jpg&fm=jpg);
+   
+     
+  }
+  
+  .second-section-background{
+    background-image:
+      url(https://images.pexels.com/photos/9334434/pexels-photo-9334434.jpeg?cs=srgb&dl=pexels-ali-%C5%9Fenol-9334434.jpg&fm=jpg);
+  }
+  
+  .third-section-background{
+    background-image:
+    url(https://images.pexels.com/photos/11254088/pexels-photo-11254088.jpeg?cs=srgb&dl=pexels-nikita-igonkin-11254088.jpg&fm=jpg);
+  }
